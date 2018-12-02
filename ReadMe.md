@@ -1,5 +1,5 @@
 
-#Noise Externals for Pure Data
+# Noise Externals for Pure Data
 
 
 Here you will find externals of Noise for Pure Data. To use it just unzip the folder of the external in your externals directory of pure data.
@@ -32,6 +32,6 @@ lp3_noise : generates a low pass filtered noise of 3rst order (decay of 60dB/dec
 bp_noise~ : generates a band pass filtered noise at the selected Freq, gain and Q.
 
 
-bp_noise: generates a band pass filtered noise at the selected Freq, gain and Q in an interface mode.
+bp_noise : generates a band pass filtered noise at the selected Freq, gain and Q in an interface mode.
 
-velvet_noise~ :generates a signal of with random deltas at the ferquency and amplitud setted.
+velvet_noise~ : generates a signal of with random deltas at the ferquency and amplitud setted.
