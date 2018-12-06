@@ -22,7 +22,7 @@ generates a signal of pink noise. Left output.
 
 
 #### lp1_noise~ : 
-generates a low pass filtered noise of 1rst order (decay of 20dB/decade) at the selected cut Freq
+generates a Butterworth low pass filtered noise of 1rst order (decay of 20dB/decade) at the selected cut Freq
 
 
 -Inlets: Message with (fc X), X=cut freq, pre-setted at 500Hz.   
@@ -30,7 +30,7 @@ generates a low pass filtered noise of 1rst order (decay of 20dB/decade) at the 
 
 
 #### lp2_noise~ : 
-generates a low pass filtered noise of 2rst order (decay of 40dB/decade) at the selected cut Freq
+generates a Butterworth low pass filtered noise of 2rst order (decay of 40dB/decade) at the selected cut Freq
 
 
 -Inlets: Message with (fc X), X=cut freq, pre-setted at 500Hz.   
@@ -38,7 +38,7 @@ generates a low pass filtered noise of 2rst order (decay of 40dB/decade) at the 
 
 
 #### lp3_noise~ : 
-generates a low pass filtered noise of 3rst order (decay of 60dB/decade) at the selected cut Freq
+generates a Butterworth low pass filtered noise of 3rst order (decay of 60dB/decade) at the selected cut Freq
 
 
 -Inlets: Message with (fc X), X=cut freq, pre-setted at 500Hz.   
@@ -46,7 +46,7 @@ generates a low pass filtered noise of 3rst order (decay of 60dB/decade) at the 
 
 
 #### lp1_noise : 
-generates a low pass filtered noise of 1rst order (decay of 20dB/decade) at the selected cut Freq in an interface mode
+generates a Butterworth low pass filtered noise of 1rst order (decay of 20dB/decade) at the selected cut Freq in an interface mode
 
 
 -Inlets: No   
@@ -54,7 +54,7 @@ generates a low pass filtered noise of 1rst order (decay of 20dB/decade) at the 
 
 
 #### lp2_noise : 
-generates a low pass filtered noise of 2rst order (decay of 40dB/decade) at the selected cut Freq in an interface mode
+generates a Butterworth low pass filtered noise of 2rst order (decay of 40dB/decade) at the selected cut Freq in an interface mode
 
 
 -Inlets: No   
@@ -62,7 +62,7 @@ generates a low pass filtered noise of 2rst order (decay of 40dB/decade) at the 
 
 
 #### lp3_noise : 
-generates a low pass filtered noise of 3rst order (decay of 60dB/decade) at the selected cut Freq in an interface mode
+generates a Butterworth low pass filtered noise of 3rst order (decay of 60dB/decade) at the selected cut Freq in an interface mode
 
 
 -Inlets: No   
@@ -70,7 +70,7 @@ generates a low pass filtered noise of 3rst order (decay of 60dB/decade) at the 
 
 
 #### bp_noise~ : 
-generates a band pass filtered noise at the selected Freq, gain and Q.
+generates a resonant band pass filtered noise at the selected Freq, gain and Q.
 
 
 -Inlets: Message with (gain X), X= gain between 0 and 1. Message with (Q X), X=Q value. Message with (fc X), X=cut freq.  
@@ -78,7 +78,7 @@ generates a band pass filtered noise at the selected Freq, gain and Q.
 
 
 #### bp_noise : 
-generates a band pass filtered noise at the selected Freq, gain and Q in an interface mode.
+generates a resonant band pass filtered noise at the selected Freq, gain and Q in an interface mode.
 
 
 -Inlets: No   
