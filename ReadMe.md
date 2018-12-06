@@ -5,7 +5,8 @@
 Here you will find externals of Noise for Pure Data. To use it just unzip the folder of the external in your externals directory of pure data.
 
 
-white_noise~ : generates a signal of white noise. 
+#### white_noise~ : 
+generates a signal of white noise. 
 
 
 -Inlets: No   -Outlets: Left->the signal
